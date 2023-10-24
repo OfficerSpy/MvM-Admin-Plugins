@@ -10,18 +10,21 @@
 				"library"			"server"
 				"linux"				"@_ZN12CTFGameRules24DistributeCurrencyAmountEiP9CTFPlayerbbb"
 				"mac"				"@_ZN12CTFGameRules24DistributeCurrencyAmountEiP9CTFPlayerbbb"
+				"windows"			"\x55\x8B\xEC\x83\xEC\x18\x80\x7D\x10\x00"
 			}
             "CPopulationManager::JumpToWave" //int
             {
 				"library"			"server"
 				"linux"				"@_ZN18CPopulationManager10JumpToWaveEjf"
 				"mac"				"@_ZN18CPopulationManager10JumpToWaveEjf"
+				"windows"			"\x55\x8B\xEC\xA1\x2A\x2A\x2A\x2A\x56\x8B\xF1\x57\x8B\x7D\x08"
 			}
 			"CAttributeManager::AttribHookValueFloat" //float (float, char const*, CBaseEntity const*, CUtlVector<CBaseEntity*, CUtlMemory<CBaseEntity*, int> >*, bool)
             {
 				"library"			"server"
 				"linux"				"@_ZN17CAttributeManager15AttribHookValueIfEET_S1_PKcPK11CBaseEntityP10CUtlVectorIPS4_10CUtlMemoryIS8_iEEb"
 				"mac"				"@_ZN17CAttributeManager15AttribHookValueIfEET_S1_PKcPK11CBaseEntityP10CUtlVectorIPS4_10CUtlMemoryIS8_iEEb"
+				"windows"			"\x55\x8B\xEC\x83\xEC\x0C\x8B\x0D\x2A\x2A\x2A\x2A\x53\x56\x57\x33\xF6\x33\xFF\x89\x75\xF4\x89\x7D\xF8\x8B\x41\x08\x85\xC0\x74\x2A\x68\x2A\x2A\x2A\x2A\x68\x2A\x2A\x2A\x2A\x68\x2A\x2A\x2A\x2A\x68\x2A\x2A\x2A\x2A\x6A\x6B"
 			}
 			"AllocPooledString"
 			{
@@ -47,9 +50,9 @@
 		{
 			"CTFPlayer::EquipWearable"
 			{
-				"windows"	"431"
-				"linux"		"432"
-				"mac"		"432"
+				"windows"	"438"
+				"linux"		"439"
+				"mac"		"439"
 			}
 		}
     }
