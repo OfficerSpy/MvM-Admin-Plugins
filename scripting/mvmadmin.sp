@@ -6,7 +6,7 @@
 #include <usermessages>
 #include <tf2attributes>
 #include <clients>
-#include <system2>
+// #include <system2>
 
 char mapname[128];
 public Plugin myinfo = 
@@ -1232,7 +1232,7 @@ public Action Command_Equip_Wearable_Model(int client, int args)
 	for (int i = 0; i < target_count; i++)
 	{
 		if (modelid == 0 && models_given_idwearable[target_list[i]] != 0) {
-			if (IsValidEntity(RemoveEntity(models_given_idwearable[target_list[i]])))
+			if (IsValidEntity(models_given_idwearable[target_list[i]]))
 				RemoveEntity(models_given_idwearable[target_list[i]]);
 			models_given_idwearable[target_list[i]] = 0;
 			models_given[target_list[i]] = 0;
