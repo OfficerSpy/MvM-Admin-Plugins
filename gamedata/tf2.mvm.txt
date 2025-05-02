@@ -50,9 +50,9 @@
 		{
 			"CTFPlayer::EquipWearable"
 			{
-				"windows"	"438"
-				"linux"		"439"
-				"mac"		"439"
+				"windows"	"439"
+				"linux"		"440"
+				"mac"		"440"
 			}
 		}
     }
